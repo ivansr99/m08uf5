@@ -6,10 +6,23 @@
     <body>
         <h3>Formulario sencillo</h3>
         <form action="https://ptsv2.com/t/smx2m08/post" method="post">
-            
-            Escribe tu nombre
-            <br/><input type="text" name="nombre" value="" />
-            <br/>
+            <style>
+                fieldset{width: 30%;}
+            </style>    
+            <fieldset>
+                <legend>Datos de la persona</legend>
+                <br/>
+                Escribe tu nombre
+                <br/><input type="text" name="nombre" value="" />
+                <br/><input type="hidden" name="nombre" value="nombre secreto" />
+                <br/>
+                Escribe tu apellido
+                <br/><input type="text" name="apellido" value="" />
+                <br/>
+                Escribe tu DNI
+                <br/><input type="text" name="dni" value="" />
+                <br/>
+                </fieldset>
             Campo checkbox
             <br/><input name="soltero" type="checkbox" value="soltero" />soltero
             <br/><input name="casado" type="checkbox" value="casado" />casado
