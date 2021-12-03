@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang= "es">
+    <head>
+        <title><Formulari></title>
+    </head>
+    <meta charset="utf8">
+    <body>
+        <h1>Currriculum</h1>
+        <form action="https://ptsv2.com/t/smx2m08/post" method="post">
+            <style>
+                h1{text-align: center;color: green;}
+                #t1{width: 30%;background-color: orangered;}
+                #t2{width: 30%;background-color:greenyellow;}
+                #t3{width: 30%;background-color:pink;}
+                #t4{width: 30%;background-color:cornflowerblue;}
+                #t5{width: 30%;background-color:gray;}
+            </style>  
+             <fieldset id=t1>
+                <legend><u><b>Informacion Basica</b></u></legend>
+                <br/>
+                Nombre
+                <br/><input type="text" name="Nombre" value="" />
+                <br/>
+                Altura en centimetros
+                <br/><input type="number" name="Altura" value="" />
+                <br/>
+                Email
+                <br/><input type="text" name="email" value="" />
+                <br/>
+                Fecha Nacimiento:
+                <br/><input type="date" name="fecha" value="" />
+                <br/>
+            </fieldset>
+             <fieldset id=t2>
+                <legend><u><b>Nacionalidad</b></u></legend>
+                <input type="radio" name="Española" value="Española" />Española
+                <input type="radio" name="Comunitario(UE)" value="Comunitario(UE)" />Comunitario(UE)
+                <input type="radio" name="No comunitario" value="No comunitario" />No comunitario
+                <br/>
+            </fieldset>
+            <fieldset id=t3>
+            <legend><u><b>Estudios</b></u></legend>
+            <select id="so" name="so">
+                <option value="" selected="selected">selecciona -</option>
+                <option value= "GM">GM</option>
+                <option value= "ESO">ESO</option>
+                <option value= "GM">BATX</option>
+            </select>
+            </fieldset>
+            <fieldset id=t4>
+                <legend><u><b>Idiomas</b></u></legend>
+                <input name="Catalan" type="checkbox" value="Catalan" />Catalan
+                <input name="Castellano" type="checkbox" value="Castellano" />Castellano
+                <input name="Ingles" type="checkbox" value="Ingles" />Ingles
+                <input name="Chino" type="checkbox" value="Chino" />Chino
+            <br/>
+            </fieldset>
+            <fieldset id=t5>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Cancelar">
+                <br/>
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+
